@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#title{
+  position: absolute;
+  color:white;
+  position: relative;
+  top: 100px;
+  left: 160px
+}
+
+#input_container{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 200px;
+  width: 800px;
+
+}
+#input_box:focus{
+  outline: none;
+}
+#input_box {
+  position: absolute;
+  top: 40px;
+  left: 20%;
+  background-color: #222222;
+  height: 50px;
+  width: 400px;
+  font-size: 30px;
+  border-bottom-color: white;
+  color: white;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+#submit {
+  position: absolute;
+  background-color: green;
+  border-radius: 6px;
+  border-color: #2222;
+  border-width: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  right: 150px;
+  top: 40px;
+  height: 50px;
+}
+.user{
+  color: white;
+}
+
+#graph_container{
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
